@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link type="text/css" rel="stylesheet" href="treeMenu.css">
+    <script src="jquery.min.js"></script>
+    <script src="treeMenu.js"></script>
+    <title></title>
+    <script>
+        $(document).ready(function() {
+
+            var jsonData = [
+                {"id":"1","pid":"0","name":"江苏"},
+                {"id":"2","pid":"0","name":"湖北"},
+                {"id":"3","pid":"0","name":"江西"},
+                {"id":"4","pid":"0","name":"山东"},
+                {"id":"5","pid":"1","name":"苏州"},
+                {"id":"6","pid":"1","name":"南京"},
+                {"id":"10","pid":"5","name":"常州"},
+                {"id":"11","pid":"5","name":"吴江"},
+                {"id":"12","pid":"5","name":"张家港"}
+            ];
+
+            // var array = $.fn.transData(jsonData, 'id', 'pid', 'children');
+
+            $('body').createTree(jsonData);
+        });
+    </script>
+</head>
+<body>
+
+</body>
+</html>
