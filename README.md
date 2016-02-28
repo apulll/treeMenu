@@ -13,7 +13,8 @@
 ```
 假设需要在body元素下生成一个树形结构菜单，则需要在body下使用createTree方法，创建树形结构菜单。
 
-> 例如，输入数据为：
+> 例如:
+
 ```
 var jsonData = [
    {"id":"1","pid":"0","name":"江苏"},
@@ -30,5 +31,5 @@ $('body').createTree(array);
 // 执行函数createTree(array)即可生成树形结构菜单。
 ```
 效果如图：
-![](http://blog.liuxj.com/treeMenu.png)
+![](http://blog.liuxj.com/img/treeMenu.png)
 
