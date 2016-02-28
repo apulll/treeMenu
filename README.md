@@ -31,5 +31,6 @@ $('body').createTree(array);
 // 执行函数createTree(array)即可生成树形结构菜单。
 ```
 效果如图：
+
 ![](http://blog.liuxj.com/img/treeMenu.png)
 
