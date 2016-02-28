@@ -1,5 +1,4 @@
-# A jQuery Plugin for Tree Menu
-树形结构菜单自动生成jQuery插件
+# A jQuery Plugin for Tree Menu (树形结构菜单自动生成jQuery插件)
 ==================================
 
 
